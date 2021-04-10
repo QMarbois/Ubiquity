@@ -161,7 +161,7 @@ body {
 .logo {
 	width: 7rem;
 	height: 4.8rem;
-	background-image: url(img/logos/LOGO.svg);
+	background-image: url(../img/logos/LOGO.svg);
 	background-size: contain;
 	background-position: center;
     background-repeat: no-repeat;
@@ -218,7 +218,7 @@ body {
 .home{
     display: flex;
     align-items: center;
-    background-image: url(img/images/slider-1.jpg);
+    background-image: url(../img/images/slider-1.jpg);
     background-size: cover;
 	background-position: center;
     text-align: center;
@@ -227,7 +227,7 @@ body {
 
 @media (min-resolution: 144dpi) {
 	.home {
-		background-image: url(img/images/slider-1@2x.jpg);
+		background-image: url(../img/images/slider-1@2x.jpg);
 	}
 }
 
@@ -364,7 +364,7 @@ body {
 /* About  */
 
 .about {
-    background-image: url(img/images/bg_about.jpg);
+    background-image: url(../img/images/bg_about.jpg);
     background-size: cover;
 	background-position: center;
     background-repeat: no-repeat;
@@ -374,7 +374,7 @@ body {
 
 @media (min-resolution: 144dpi) {
 	.about {
-		background-image: url(img/images/bg_about@2x.jpg);
+		background-image: url(../img/images/bg_about@2x.jpg);
 	}
 }
 
@@ -485,7 +485,7 @@ body {
 /* Facts */
 .facts {
     text-align: center;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(img/images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
     background-size: cover;
 	background-position: center;
     background-repeat: no-repeat;
@@ -495,7 +495,7 @@ body {
 
 @media (min-resolution: 144dpi) {
 	.facts {
-		background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(img/images/lauren-mancke-aOC7TSLb1o8-unsplash@2x.jpg);
+		background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/images/lauren-mancke-aOC7TSLb1o8-unsplash@2x.jpg);
 	}
 }
 
@@ -537,7 +537,7 @@ body {
 /* Testimonials */
 
 .testimonials {
-    background-image: url(img/images/rect.jpg);
+    background-image: url(../img/images/rect.jpg);
     background-size: cover;
 	background-position: center;
     background-repeat: no-repeat;
@@ -612,7 +612,7 @@ footer a {
     height: 0.8rem;
     width: 1rem;
     margin-right: 1.2rem;
-    background-image: url(img/pictograms/angle-double-right.svg);
+    background-image: url(../img/pictograms/angle-double-right.svg);
 }
 
 .tag-item {
