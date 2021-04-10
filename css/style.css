@@ -101,9 +101,6 @@ body {
     .container {
         max-width: 41rem;
     }
-    .container-narrow {
-        max-width: 18rem;
-    }
 }
   
 /* from 768px */
@@ -111,18 +108,12 @@ body {
     .container {
         max-width: 71rem;
     }
-    .container-narrow {
-        max-width: 48rem;
-    }
 }
   
 /* from 992px */
 @media screen and (min-width: 62em) {
     .container {
         max-width: 101rem;
-    }
-    .container-narrow {
-        max-width: 78rem;
     }
 }
   
@@ -232,8 +223,6 @@ body {
 }
 
 .home .container {
-    /* display: grid;
-    grid-template-columns: 1fr 10fr 1fr; */
     display: flex;
     justify-items: center;
 }
