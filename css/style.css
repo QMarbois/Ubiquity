@@ -209,8 +209,7 @@ body {
 
 /* Navigation */
 [hidden] {
-	display: block;
-	visibility: hidden;
+	display: none;
 }
 
 .toggle-menu {
@@ -227,14 +226,8 @@ body {
 	right: 0;
 	background-color: #ffffff;
     text-align: center;
-    transform: translateX(-150%);
-	transition: transform .5s ease-out, visibility .001s .5s;
 }
 
-.menu:not([hidden]) {
-	transform: translateX(0);
-	transition: visibility .001s, transform .5s .001s ease-in;
-}
 
 .menu-link.active,
 .menu-link:hover,
@@ -263,7 +256,8 @@ body {
     .menu {
        display: flex;
        position: static;
-       visibility: visible;
+       /* transform: translateX(0);
+       transition: none; */
     }
 }
 
