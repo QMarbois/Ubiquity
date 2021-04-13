@@ -69,6 +69,7 @@ body {
 
 .title-decoration {
     display: flex;
+    margin-bottom: 3.2rem;
 }
 
 .decoration:nth-child(1){
@@ -356,7 +357,6 @@ body {
 .services-text {
     font-size: 2.4rem;
     margin-bottom: 5rem;
-    margin-top: 3.2rem;
 }
 
 .service-card {
@@ -441,7 +441,6 @@ body {
     font-size: 2.4rem;
     color: var(--font-color-secondary);
     margin-bottom: 17rem;
-    margin-top: 3.2rem;
 }
 
 .about img {
@@ -472,14 +471,9 @@ body {
     margin-bottom: 1.2rem;
 }
 
-.blog .indicator-item{
-    margin: 0 0.5rem;
-}
-
 .blog-text {
     margin-bottom: 11.5rem;
     font-size: 2.4rem;
-    margin-top: 3.2rem;
 }
 
 .blog .container-grid {
@@ -488,13 +482,15 @@ body {
 }
 
 .blog-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     box-shadow: 0px 3px 6px #00000029;
     transition: all .3s ease-in-out;
     color: var(--font-color-main);
     text-decoration: none;
+}
+
+.blog-card img {
+    margin: 0 auto; 
+    margin-bottom: 8rem;
 }
 
 .blog-card:hover,
@@ -504,20 +500,12 @@ body {
     filter: drop-shadow(0 1em 0.75rem rgba(0, 0, 0, 0.527));
 }
 
-.blog-card figure {
-    padding-left: 2.5rem;
-    padding-top: 2.5rem;
-    padding-right: 2.5rem;
-}
-
 .blog-card h3 {
     font-family: 'Raleway', sans-serif;
     font-size: 4rem;
     font-weight: 600;
     color: var(--primary);
-    padding-left: 4.9rem;
-    padding-right: 4.9rem;
-    padding-top: 7.3rem;
+    margin-bottom: 2.7rem;
 }
 
 .blog-card h3 + * {
@@ -525,10 +513,8 @@ body {
 }
 
 .blog-card p {
-    padding-left: 4.5rem;
-    padding-right: 4.5rem;
-    padding-bottom: 4.5rem;
-    padding-top: 2.7rem;
+    margin: 0 4.5rem;
+    margin-bottom: 4.5rem;
 }
 
 /* from 768px */
@@ -578,15 +564,15 @@ body {
     margin-bottom: 1.2rem;
 }
 
-.facts .indicator-item{
-    margin: 0 0.5rem;
+.facts .title-decoration {
+    margin-bottom: 5rem;
 }
 
 .facts .facts-list{
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 4rem;
-    margin-top: 5rem;
+
 }
 
 .fact-item {
