@@ -486,6 +486,7 @@ body {
     transition: all .3s ease-in-out;
     color: var(--font-color-main);
     text-decoration: none;
+    padding-top: 2.5rem;
 }
 
 .blog-card img {
